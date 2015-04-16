@@ -43,18 +43,10 @@
 		<link rel="apple-touch-icon" sizes="144x144" href="<%=baseUrl%>/images/mobileIcons/ipad_usgs_144x144.jpg" />
 		<link type="text/css" rel="stylesheet" href="<%=baseUrl%>/webjars/bootstrap/<%=vBootstrap%>/css/bootstrap<%= development ? "" : ".min"%>.css" />
 		<link type="text/css" rel="stylesheet" href="<%=baseUrl%>/webjars/font-awesome/<%=vFontAwesome%>/css/font-awesome<%= development ? "" : ".min"%>.css" />
+                <link href="css/base.css" rel="stylesheet" type="text/css">
+                <link href="css/custom.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>SPARROW DSS</title>
-<link href="css/base.css" rel="stylesheet" type="text/css">
-<link href="css/custom.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
 
     <div class="container-fluid">
 
@@ -242,8 +234,6 @@
     <!-- END USGS Footer Template -->​
 
         </div><!--container-fluid-->
-</body>
-</html>
 
 		<jsp:include page="js/log4javascript/log4javascript.jsp">
 			<jsp:param name="relPath" value="<%=relPath%>" /> 
