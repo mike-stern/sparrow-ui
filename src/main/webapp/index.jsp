@@ -133,14 +133,6 @@
             <!--======Map Filter Sidebar======-->
             <div id="map-sidebar-container">
                     <div id="filter-container">
-                    <p>Choose a Data Series</p>
-                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
-                    <select id="data-series">
-                            <option value="total yield">Total Yield</option>
-                        <option value="Incremental Load">Incremental Load</option>
-                        <option value="Flow-weighted Concentration">Flow-weighted Concentration</option>
-                        <option value="Incremental Yield">Incremental Yield</option>
-                    </select>
                     <p>Choose Area of Interest</p>
                     <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
                     <select id="state">
@@ -160,6 +152,14 @@
                         <option value="">Example</option>
                         <option value="">Example</option>
                         <option value="">Example</option>
+                    </select>
+                    <p>Choose a Data Series</p>
+                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                    <select id="data-series">
+                            <option value="total yield">Incremental Yield</option>
+                        <option value="Incremental Load">Incremental Load</option>
+                        <option value="Flow-weighted Concentration">Flow-weighted Concentration</option>
+                        <option value="Incremental Yield">Total Yield</option>
                     </select>
                     <p>Group Results by:</p>
                     <select id="group-result-by">
@@ -223,7 +223,7 @@
 
                     <p style="margin: 5px 0 5px 0; padding-left: 5px;">URL: http//cida.usgs.gov/ca_drought</p>
 
-                <p style="margin: 5px 0 5px 0; padding-left: 5px;">Contact Information: <a href="mailto:cida_webmaster@usgs.gov?Subject=Hello%20again" target="_top">gs-cida_ca_drought_cida_app@usgs.gov</a></p>
+                <p style="margin: 5px 0 5px 0; padding-left: 5px;">Contact Information: <a href="mailto:cida_webmaster@usgs.gov?Subject=Hello%20again" target="_top">cida.usgs.gov/sparrow</a></p>
 
                     <p style="margin: 5px 0 5px 0; padding-left: 5px;">Page last modified: <script>document.write(document.lastModified);</script></p>
 
