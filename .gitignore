@@ -14,3 +14,8 @@
 hs_err_pid*
 /nb-configuration.xml
 /target/
+
+.settings/*
+.classpath
+
+.project
